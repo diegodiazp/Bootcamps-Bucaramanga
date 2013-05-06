@@ -1,4 +1,4 @@
-Taller Presencial Bucaramanga
+<img src="http://cymetria.com/images/banner_bucaramanga.png">
 ================
 Este es el repositorio del taller de apps.co de bootcamps bucaramanga
 
