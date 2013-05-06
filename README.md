@@ -1,7 +1,8 @@
-Html5Bucaramanga
+Taller Presencial Bucaramanga
 ================
 Este es el repositorio del taller de apps.co de bootcamps bucaramanga
 
+Notas HTML5
 
 Nota chrome frame
 
