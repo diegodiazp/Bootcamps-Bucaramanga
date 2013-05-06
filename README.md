@@ -1,11 +1,12 @@
 <img src="http://cymetria.com/images/banner_bucaramanga.png">
 ================
-Este es el repositorio del taller de apps.co de bootcamps bucaramanga
 
-Notas HTML5
 
-Nota chrome frame
+<b>Notas HTML5</b>
 
-  <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+<p style="font-style:italic;">
+Condicional Chrome frame
+	<!--[if lt IE 7]>
+    	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+</p>
