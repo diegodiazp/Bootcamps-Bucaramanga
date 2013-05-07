@@ -1,0 +1,130 @@
+aside{
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 400px;
+	padding: 20px 30px 0 30px ;
+	width: 40%;
+
+}
+aside li{
+	list-style: none;
+	display: inline-block;
+}
+header{
+	background: black;
+	box-shadow: inset 0px 0px 10px gray;
+	color: white;
+	height: 140px;
+	text-align: center;
+	width: 100%;
+
+}
+
+h1{
+	font-size: 60px;
+	margin: 0;
+	text-shadow: 2px 2px 2px gray;
+}
+section{
+	
+}
+#box_left, aside{
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: inset 0px 0px 20px gray;
+}
+#box_left{
+	width: 50%;
+	height: 400px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding-top: 20px;
+}
+#caja1{
+
+}
+
+#boton_1 div, #boton_6 div{
+	background: yellow;
+}
+#boton_2 div{
+	background: cyan;
+}
+#boton_3 div{
+	background: green;
+}
+#boton_4 div{
+	background: black;
+}
+#boton_5 div{
+	background: blue;
+}
+
+#boton_7 div{
+	background: orange;
+}
+#boton_8 div{
+	background: brown;
+}
+#boton_9 div{
+	background: red;
+}
+#intro{
+	padding:20px;
+	text-align: center;
+	width: 100%;
+}
+.cajas{
+	margin: 0px auto;
+	width: 80%;
+	height: 100px;
+	border: 2px dotted black;
+}
+.color_boton{
+	width: 60px;
+	height: 25px;
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	transition: width 2s, height 2s;
+	cursor: pointer;
+}
+.color_boton:hover{
+	width: 70px;
+	height: 35px;
+}
+
+
+@media only screen and (max-width: 980px) {
+
+
+}
+
+@media only screen and (max-width: 720px) {
+
+	h1{
+		font-size: 30px;
+	}
+	#box_left, aside{
+		margin: 10px auto;
+		width: 100%;
+	}
+	aside{
+		width: 90%;
+	}
+
+
+}
+
+@media only screen and (max-width: 420px) {
+
+	h1{
+		font-size: 12px;
+	}
+
+
+}
+@media only screen and (max-width: 380px) {
+
+
+}

@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>App Phonegap</title>
+
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<h1>Aplicacion Arma la bandera de Colombia!!</h1>
+
+	</header>
+
+	<section id="intro">
+		<article>
+			Esta es una aplicacion para que aprendas a construir la bandera de tu pais!!
+		</article>
+	</section>
+	<section id="box_left">
+		<div class="cajas" id="caja_1"></div>
+		<div class="cajas" id="caja_2"></div>
+		<div class="cajas" id="caja_3"></div>
+	</section>
+	<aside>
+		<section>
+			<h3>Escoje el primer color:</h3>
+			<ul>
+				<li id="boton_1"><div class="color_boton primera" data-color="yellow"></div></li>
+				<li id="boton_2"><div class="color_boton primera" data-color="cyan"></div></li>
+				<li id="boton_3"><div class="color_boton primera" data-color="green"></div></li>
+			</ul>
+			<h3>Escoje el segundo color:</h3>
+			<ul>
+				<li id="boton_4"><div class="color_boton segunda" data-color="black"></div></li>
+				<li id="boton_5"><div class="color_boton segunda" data-color="blue"></div></li>
+				<li id="boton_6"><div class="color_boton segunda" data-color="yellow"></div></li>
+			</ul>
+			<h3>Escoje el tercero color:</h3>
+			<ul>
+				<li id="boton_7"><div class="color_boton tercera" data-color="orange"></div></li>
+				<li id="boton_8"><div class="color_boton tercera" data-color="brown"></div></li>
+				<li id="boton_9"><div class="color_boton tercera" data-color="red"></div></li>
+			</ul>
+			<div id="resultado"></div>
+		</section>
+		<button id="clean">Limpiar</button>
+		<button id="again">Volver a Jugar</button>
+	</aside>
+	<footer>
+		Todos los derechos reservados  - Bucaramanga Colombia.
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript" src="js/script_app.js"></script>
+	<script type="text/javascript" src="cordova-2.7.0.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+       	app.initialize();
+   	</script>
+</body>
+</html>
